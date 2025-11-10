@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <display-name>TigerAlertWeb</display-name>
+
+    <!-- Camera Servlet -->
+    <servlet>
+        <servlet-name>CameraServlet</servlet-name>
+        <servlet-class>com.tiger.servlet.CameraServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CameraServlet</servlet-name>
+        <url-pattern>/CameraServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Alert Servlet -->
+    <servlet>
+        <servlet-name>AlertServlet</servlet-name>
+        <servlet-class>com.tiger.servlet.AlertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AlertServlet</servlet-name>
+        <url-pattern>/AlertServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Welcome Page -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>
