@@ -84,22 +84,22 @@ Done! Open your browser and start using it.
 Here's a visual tour of the application:
 
 1. **Alerts Dashboard** - Real-time tiger detection alerts from camera feeds
-   ![Alerts Dashboard](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject1.jpg)
+   ![Alerts Dashboard](./screenshots/tigerproject1.jpg)
 
 2. **Tiger Master Records** - Complete tiger database with all records
-   ![Tiger Records](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject2.jpg)
+   ![Tiger Records](./screenshots/tigerproject2.jpg)
 
 3. **Tiger Profile & Detection History** - Individual tiger details with confidence trends
-   ![Tiger Profile](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject3.jpg)
+   ![Tiger Profile](./screenshots/tigerproject3.jpg)
 
 4. **Detection Dashboard** - Camera detections grid with thumbnails and confidence scores
-   ![Detection Dashboard](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject4.jpg)
+   ![Detection Dashboard](./screenshots/tigerproject4.jpg)
 
 5. **Camera Management** - Monitor camera locations and feed activity
-   ![Camera Management](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject5.jpg)
+   ![Camera Management](./screenshots/tigerproject5.jpg)
 
 6. **Add & Manage Tigers** - Create new tiger records with full details
-   ![Add Tiger](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject6.jpg)
+   ![Add Tiger](./screenshots/tigerproject6.jpg)
 
 ## AI Detection
 
