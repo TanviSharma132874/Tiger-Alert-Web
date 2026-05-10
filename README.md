@@ -6,10 +6,12 @@ Keep track of tigers in wildlife reserves with real-time alerts and AI-powered d
 
 - **See Real-Time Alerts** - Get instant notifications when cameras detect tigers
 - **Keep Tiger Records** - Manage info about each tiger (name, age, where they live, health status)
-- **Track Individual Tigers** - See where each tiger goes, how healthy they are, and their activity patterns
-- **Smart Detection** - AI automatically spots tigers in camera footage and tracks them
-- **Manage Cameras** - Add camera locations and monitor what they catch
+- **Track Individual Tigers** - See where each tiger goes, how healthy they are, and their activity patterns with confidence trends
+- **Smart Detection** - AI automatically spots tigers in camera footage, tracks them, and shows confidence scores
+- **Manage Cameras** - Add camera locations and monitor what they catch in real-time
 - **Create Alerts** - Set up alerts for important tiger detections and track them over time
+- **Track Missing Tigers** - Get alerts for tigers that haven't been detected in a while
+- **Monitor Health** - Track tiger health status (Healthy, Injured, Missing, Aggressive)
 
 ## How It's Built
 
@@ -61,11 +63,43 @@ Done! Open your browser and start using it.
 
 **Tiger Records** - A list of all the tigers you're tracking. Shows their name, age, gender, where they live, and if they're healthy.
 
-**Tiger Profile** - Details about one specific tiger. Check when it was last seen, where, and what it's been up to.
+**Tiger Profile** - Details about one specific tiger. Check when it was last seen, where, and what it's been up to. Shows confidence trend graphs to track detection patterns.
 
-**Detection Dashboard** - Recent camera detections shown as a grid. You can assign detected tigers to tiger profiles here.
+**Detection Dashboard** - Recent camera detections shown as a grid with thumbnails. You can assign detected tigers to tiger profiles here and see the confidence scores.
 
-**Camera Management** - Add new cameras and see what each one is catching. Track alerts per camera.
+**Camera Management** - Add new cameras and see what each one is catching. Track alerts per camera and monitor camera feeds in real-time.
+
+**Add Tiger** - Create new tiger records with detailed information (name, age, gender, health status, habitat assignment).
+
+**Track Missing Tigers** - Auto-missing tiger feature that helps identify and track tigers that haven't been detected in a while.
+
+**Health & Behavioral Status** - Monitor tiger health conditions:
+  - Active & Healthy
+  - Injured - Healing
+  - Missing
+  - Aggressive
+
+## Screenshots & Features in Action
+
+Here's a visual tour of the application:
+
+1. **Alerts Dashboard** - Real-time tiger detection alerts from camera feeds
+   ![Alerts Dashboard](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject1.jpg)
+
+2. **Tiger Master Records** - Complete tiger database with all records
+   ![Tiger Records](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject2.jpg)
+
+3. **Tiger Profile & Detection History** - Individual tiger details with confidence trends
+   ![Tiger Profile](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject3.jpg)
+
+4. **Detection Dashboard** - Camera detections grid with thumbnails and confidence scores
+   ![Detection Dashboard](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject4.jpg)
+
+5. **Camera Management** - Monitor camera locations and feed activity
+   ![Camera Management](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject5.jpg)
+
+6. **Add & Manage Tigers** - Create new tiger records with full details
+   ![Add Tiger](https://github.com/TanviSharma132874/Tiger-Alert-Web/raw/main/screenshots/tigerproject6.jpg)
 
 ## AI Detection
 
